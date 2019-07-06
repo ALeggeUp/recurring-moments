@@ -1,0 +1,37 @@
+{
+  "name": "recurring-moments",
+  "version": "0.9.0",
+  "description": "Library for handling recurring moments",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ALeggeUp/recurring-moments.git"
+  },
+  "keywords": [
+    "moment",
+    "rrule",
+    "recur"
+  ],
+  "author": "Stephen Legge <stephen@aleggeup.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALeggeUp/recurring-moments/issues"
+  },
+  "homepage": "https://github.com/ALeggeUp/recurring-moments#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "rrule": "^2.6.2"
+  }
+}
