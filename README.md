@@ -1,7 +1,8 @@
 # Recurring Moments
 
-A Library for handling recurring moments based on recurrence rules as
-definied in section 3.8.5.3 of RFC-5545.
+A Library for handling recurring moments based on recurrence rules as definied
+in section [3.8.5.3](https://icalendar.org/iCalendar-RFC-5545/3-8-5-3-recurrence-rule.html)
+of [RFC-5545](https://icalendar.org/RFC-Specifications/iCalendar-RFC-5545/).
 
 
 # Contributors
@@ -13,7 +14,7 @@ definied in section 3.8.5.3 of RFC-5545.
 
 MIT License
 
-Copyright (c) 2017-2018 [ A Legge Up ]
+Copyright (c) 2019 [ A Legge Up ]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
